@@ -6,7 +6,7 @@ A lua program that generates **Fancy Nouns.**
 
 If you don't have lua installed, `$ sudo apt install lua5.2` will do the trick.  
 
-Once lua is installed, run `$ lua main.lua <num_of_fancy_nouns>` in the fancynouns directory to generate as many fancy nouns as you want.
+Once lua is installed, run `$ lua main.lua <num_of_fancy_nouns>` in the fancynouns directory to generate as many **Fancy Nouns** as you want.
 **Be careful**, as the code is not currently optimized and will throw an exception if its first argument is not an int.
 
 ## Info about Fancy Nouns
