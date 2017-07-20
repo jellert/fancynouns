@@ -1,7 +1,8 @@
 # Fancy Nouns
 #### Inspired by _Gödel, Escher, Bach: An Eternal Golden Braid_ by Douglas Hofstadter
-A lua program that generates **Fancy Nouns** 
-Fancy Nouns are nouns that have been embellished with arbitrarily many descriptors and qualifiers.
+A lua program that generates **Fancy Nouns.**
+ 
+**Fancy Nouns** are nouns that have been embellished with arbitrarily many descriptors and qualifiers.
 
 If you don't have lua installed, `$ sudo apt install lua5.2` will do the trick. 
 Once lua is installed, run `$ lua main.lua <num_of_fancy_nouns>` to generate as many fancy nouns as you want.
@@ -29,3 +30,5 @@ The RTN model prevents any sort of intelligent interplay between words in the **
 * As mentioned above, the program also has the purely technical downfall that causes it to throw an exception when its first argument isn't an integer. Please give it an integer.
 
 I'll probably keep tweaking the probabilities so that the **Fancy Nouns** are more interesting. If you find any other problems, let me know.
+
+[RTN]: https://68.media.tumblr.com/e6ce39e7973ca5cdc0523bd771b6e8a8/tumblr_inline_mtrfoq9vzi1rhp7q3.jpg "Fancy Noun RTN"
