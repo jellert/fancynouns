@@ -23,6 +23,8 @@ The RTN model prevents any sort of intelligent interplay between words in the **
 
 * You will notice that the article _an_ is never used. _The_ and _a_ are used in equal proportion, but never _an_. This is because knowing whether to pick _a_ or _an_ would require knowledge of the word directly following the article. If it were only ever a noun this would be ok, but any number of adjectives could stand between the article and its noun. So, knowing the first letter of the word directly following an article would be challenging and break from the spirit of the RTN, where each part of the sentence is meant to be its own self-contained subroutine. In addition, I think the frequent occurence of incorrect phrasings such as "a educated bean" adds to the silliness.
 
+* Some verbs don't seem quite right. This is because they normally come with prepositions attached to them. For example, people don't _reply_ things, they reply _to_ things. However, I haven't added these prepositions. You can imagine they are there, or have fun knowing they're not.
+
 * Some adjectives, verbs, and nouns look the same. For example, _rough_ is both an adjective and a noun, according to the list of nouns I used for this project. Also, many adjectives are past participles, which makes them look like verbs (e.g. _discredited_, _spotted_). If you think the RTN didn't work, youre probably just reading the phrase wrong.
 
 * Hofstadter's RTN includes two paths for **Ornate Noun** that skip the article. As far as I could tell, this is only accurate in English if the noun ends up being plural or a proper noun. Since I didn't want the generated text to be _too_ unintelligible, I left out the case where articles get skipped.

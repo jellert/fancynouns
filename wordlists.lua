@@ -5854,7 +5854,6 @@ adjectivelist= {
 "well-to-do",
 "well-worn",
 "wet",
-"which",
 "whimsical",
 "whirlwind",
 "whispered",
