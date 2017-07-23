@@ -10,10 +10,11 @@ function main()
     num = tonumber(arg[1])
     math.randomseed(os.time())
     math.random()
-    print("Here's "..num.." Fancy Nouns:")
+    print("\nHere's "..num.." Fancy Nouns:")
     for i=1,num do
         print(i..": "..fancynoun())
     end
+    print("\n")
 end
 
 main()
